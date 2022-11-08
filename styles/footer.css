@@ -1,0 +1,27 @@
+#footer{
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+  margin-inline: 290px;
+  background-color: rgb(17 17 17);
+  box-sizing: border-box;
+  border: 0 solid #c7bfbf;
+  border-top: 0.1px solid #333;
+}
+
+#footer ul li {
+  list-style: none;
+  padding: 2px;
+}
+#footer ul li a {
+  color: rgb(102, 102, 102);
+  text-decoration: none;
+  padding: 5px;
+  transition: .4s;
+  
+}
+
+#footer ul li a:hover{
+  color: rgb(161, 161, 155);
+  
+}

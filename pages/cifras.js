@@ -1,13 +1,14 @@
 import Header from "../components/header"
 import Footer from "../components/footer"
-import Main from "../components/main"
 
-export default function Home() {
+function cifras(cifras) {
   return (
-    <>
+    <div>Página de Cifras
       <Header/>
-      <Main/>
       <Footer/>
-    </>
+    </div>
   )
 }
+
+export default cifras
+

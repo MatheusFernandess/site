@@ -1,0 +1,31 @@
+#menu {
+  display: flex;
+  flex-direction: row;
+  padding: 50px;
+  margin-inline: 290px;
+  background-color: rgb(17 17 17);
+  align-items: center;
+  justify-content: space-between;
+}
+
+#menu ul li {
+  list-style: none;
+  padding: 5px;
+}
+#menu ul li a {
+  color: rgb(212, 207, 207);
+  text-decoration: none;
+  padding: 5px;
+  transition: .4s;
+  border-bottom: 2px solid transparent;
+}
+#menu ul li a:hover{
+  
+  color: rgb(161, 161, 155);
+  border-color: rgb(161, 161, 155);
+
+}
+
+#menu ul li a:visited{
+text-decoration: none;
+}
