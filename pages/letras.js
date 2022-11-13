@@ -1,14 +1,14 @@
 import Header from "../components/header"
 import Footer from "../components/footer"
 
-function cifras(cifras) {
+
+
+export default function letras() {
   return (
-    <div>Página de Cifras
-      <Header/>
-      <Footer/>
+    <div>
+      <Header />
+      <Footer />
     </div>
   )
 }
-
-export default cifras
 
